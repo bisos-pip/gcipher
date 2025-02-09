@@ -1,0 +1,94 @@
+#+title: bisos.gcipher: from debian dpkg to pypi module conversion.
+#+DATE: <2024-02-19 Mon 16:27>
+#+AUTHOR: Mohsen BANAN
+#+OPTIONS: toc:4
+
+#+BEGIN: b:org:pypi:readme/topControls :pkgName "gcipher" :comment "basic"
+
+|----------------------+------------------------------------------------------------------|
+| ~Blee Panel Controls~: | [[elisp:(show-all)][Show-All]] : [[elisp:(org-shifttab)][Overview]] : [[elisp:(progn (org-shifttab) (org-content))][Content]] : [[elisp:(delete-other-windows)][(1)]] : [[elisp:(progn (save-buffer) (kill-buffer))][S&Q]] : [[elisp:(save-buffer)][Save]]  : [[elisp:(kill-buffer)][Quit]]  : [[elisp:(bury-buffer)][Bury]] |
+| ~Panel Links~:         | [[file:./py3/panels/bisos.gcipher/_nodeBase_/fullUsagePanel-en.org][Repo Blee Panel]]                                                  |
+| ~See Also~:            | [[https://pypi.org/project/bisos.gcipher][At PYPI]] : [[https://github.com/bisos-pip/pycs][bisos.PyCS]]                                             |
+|----------------------+------------------------------------------------------------------|
+
+#+END:
+
+* Overview
+
+gcipher: from debian dpkg to pypi module conversion.
+
+#+BEGIN: b:org:pypi:readme/pkgDocumentation :pkgName "gcipher-cs" :comment "basic"
+
+# PYPI Documentation Comes Here in _description.org
+#+END:
+
+* Table of Contents     :TOC:
+- [[#overview][Overview]]
+- [[#installation][Installation]]
+  - [[#installation-with-pip][Installation With pip]]
+  - [[#installation-with-pipx][Installation With pipx]]
+- [[#support][Support]]
+
+* Installation
+
+The sources for the  bisos.gcipher pip package is maintained at:
+https://github.com/bisos-pip/gcipher.
+
+The bisos.gcipher pip package is available at PYPI as
+https://pypi.org/project/bisos.gcipher
+
+You can install bisos.gcipher with pip or pipx.
+
+** Installation With pip
+
+If you need access to bisos.gcipher as a python module, you can install it with pip:
+
+#+begin_src bash
+pip install bisos.gcipher
+#+end_src
+
+** Installation With pipx
+
+If you only need access to bisos.gcipher as a command on command-line, you can install it with pipx:
+
+#+begin_src bash
+pipx install bisos.gcipher
+#+end_src
+
+The following commands are made available:
+- gcipher
+
+
+* Support
+
+For support, criticism, comments and questions; please contact the
+author/maintainer\\
+[[http://mohsen.1.banan.byname.net][Mohsen Banan]] at:
+[[http://mohsen.1.banan.byname.net/contact]]
+
+
+# ###+BEGIN: blee:bxPanel:footerOrgParams :panelType "readme"
+#+STARTUP: overview
+#+STARTUP: lognotestate
+#+STARTUP: inlineimages
+#+SEQ_TODO: TODO WAITING DELEGATED | DONE DEFERRED CANCELLED
+#+TAGS: @desk(d) @home(h) @work(w) @withInternet(i) @road(r) call(c) errand(e)
+#+CATEGORY: U:gcipher
+
+# ###+END:
+
+# ###+BEGIN: blee:bxPanel:footerEmacsParams :primMode "org-mode" :panelType "readme"
+# Local Variables:
+# eval: (setq-local toc-org-max-depth 4)
+# eval: (setq-local ~selectedSubject "noSubject")
+# eval: (setq-local ~primaryMajorMode 'org-mode)
+# eval: (setq-local ~blee:panelUpdater nil)
+# eval: (setq-local ~blee:dblockEnabler nil)
+# eval: (setq-local ~blee:dblockController "interactive")
+# eval: (img-link-overlays)
+# eval: (set-fill-column 115)
+# eval: (blee:fill-column-indicator/enable)
+# eval: (bx:load-file:ifOneExists "./panelActions.el")
+# End:
+
+# ###+END
