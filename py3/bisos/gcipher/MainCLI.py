@@ -3,9 +3,9 @@
 from sys import argv, stdin, stdout, stderr, exit
 
 # from . import Const
-from unisos.gcipher import Const
-from unisos.gcipher.cipher.KeyedCipher import InvalidKey
-from unisos.gcipher.AutomaticClass import AutomaticClass
+from bisos.gcipher import Const
+from bisos.gcipher.cipher.KeyedCipher import InvalidKey
+from bisos.gcipher.AutomaticClass import AutomaticClass
 
 class MainCLI:
 
@@ -176,7 +176,7 @@ class _Operation(AutomaticClass):
 
         """
         try: 
-            CipherModule = __import__("unisos.gcipher.cipher." + self.cipher, globals(),
+            CipherModule = __import__("bisos.gcipher.cipher." + self.cipher, globals(),
                 locals(), self.cipher)
             CipherClass = getattr(CipherModule, self.cipher)
             cipherInstance = CipherClass()

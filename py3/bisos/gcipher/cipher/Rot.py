@@ -1,8 +1,8 @@
 """This module contains the Rot class."""
 
-from unisos.gcipher.cipher.CharacterCipher import CharacterCipher
-from unisos.gcipher.cipher.KeyedCipher import KeyedCipher
-from unisos.gcipher.cipher.Tools import LEN_ALPHABET, apply_caseless, offset, from_offset
+from bisos.gcipher.cipher.CharacterCipher import CharacterCipher
+from bisos.gcipher.cipher.KeyedCipher import KeyedCipher
+from bisos.gcipher.cipher.Tools import LEN_ALPHABET, apply_caseless, offset, from_offset
 
 
 class Rot(CharacterCipher, KeyedCipher):

@@ -1,7 +1,7 @@
 """This file contains the Gie class."""
 
-from unisos.gcipher.cipher.CharacterCipher import CharacterCipher
-from unisos.gcipher.cipher.Tools import apply_caseless, offset
+from bisos.gcipher.cipher.CharacterCipher import CharacterCipher
+from bisos.gcipher.cipher.Tools import apply_caseless, offset
 
 
 class Gie(CharacterCipher):
